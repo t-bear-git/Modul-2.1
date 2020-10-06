@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headerColor {
+  background-color: #ed0e53;
+  text-align: center;
+  margin: 0 0 20px 0;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  color: #2f0147;
+  font-size: 65px;
+  font-family: fantasy;
+}
+input {
+  width: 50%;
+}
+ul {
+  border: 1px solid gray;
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 20px;
+  width: 500px;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 10px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+ul li:nth-child(odd) {
+  background: #beb6b6;
+}
+ul li:hover {
+  background: #ed0e53;
+  transition: 0.5s;
+}
