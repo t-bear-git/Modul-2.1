@@ -2,8 +2,6 @@ const addTodoForm = document.querySelector('#addTodoForm');
 const addTodoInput = document.querySelector('#addTodoInputField');
 const todoList = document.querySelector('#todoList');
 
-const delBtn = document.querySelectorAll('li #delBtn');
-
 // Focus on text input on load
 addTodoInput.focus();
 
